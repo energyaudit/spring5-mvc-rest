@@ -52,8 +52,8 @@
         </dependency>
         <dependency>
             <groupId>org.mapstruct</groupId>
-            <artifactId>mapstruct-jdk8</artifactId>
-            <version>${org.mapstruct.version}</version>
+            <artifactId>mapstruct</artifactId>
+            <version>1.4.1.Final</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
@@ -106,7 +106,7 @@
                         <path>
                             <groupId>org.mapstruct</groupId>
                             <artifactId>mapstruct-processor</artifactId>
-                            <version>${org.mapstruct.version}</version>
+                            <version>1.4.1.Final</version>
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
